@@ -100,7 +100,7 @@ app.use('/static', express.static('public'))
 // (tamplate engine hbs)
 app.set("view engine", 'hbs')
 app.set("views", "views")
-hbs.registerPartials("views/parcials"); ``
+hbs.registerPartials("views/parcials"); 
 
 app.use("/", routes);
 
